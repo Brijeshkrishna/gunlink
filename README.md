@@ -1,4 +1,4 @@
-# Gunshot 
+# Gunlink
    ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Python-Version](https://img.shields.io/badge/python-3.9-blue) ![issues](https://img.shields.io/github/issues/Brijeshkrishna/gunshot) ![PyPI - Status](https://img.shields.io/pypi/status/pw-gen) ![License](https://img.shields.io/github/license/lunAr-creator/pw-gen) 
 
 #### A package that allows to handle URL
@@ -6,21 +6,21 @@
   ##  Installation
 Requests is available on PyPI:
 
-    $ python -m pip install gunshot
+    $ python -m pip install gunlink
 			
 or , simply
 
-    $pip install gunshot
+    $pip install gunlink
 Gunshot officially supports Python 2.7 & 3.6+.
   ## Cloning the repository
   
 
-    git clone https://github.com/Brijeshkrishna/gunshot.git
+    git clone https://github.com/Brijeshkrishna/gunlink.git
 ## How to use:
 
-    >>> from gunshot import gun
-	>>> shot = gun('https://github.com/Brijeshkrishna')
-	>>> shot.is_valid_link
+    >>> from gunlink import link
+	>>> gun = link('https://github.com/Brijeshkrishna')
+	>>> gun.is_valid_link
 	True
 	
 ## License
@@ -29,8 +29,3 @@ Gunshot is licensed and distributed under the MIT license.  [Contact us](mailto:
 
 ## Contributors 
 ####  If want to Contributor to gunshot contact me .
-
-
-
-
-
