@@ -6,12 +6,18 @@
   ##  Installation
 Requests is available on PyPI:
 
+
+    $ python setup.py install 
+
+or
+
     $ python -m pip install gunlink
 			
-or , simply
+or ,simply 
 
-    $pip install gunlink
-Gunshot officially supports Python 2.7 & 3.6+.
+    $ pip install gunlink
+
+Gunlink officially supports Python 2.7 & 3.6+.
   ## Cloning the repository
   
 
