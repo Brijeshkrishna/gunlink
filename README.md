@@ -1,2 +1,2 @@
 # gunshot
-A package that allows to hand URL
+## A package that allows to handle URL
