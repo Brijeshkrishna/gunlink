@@ -1,30 +1,24 @@
 from setuptools import setup, find_packages
-import codecs
-import os
-
-here = os.path.abspath(os.path.dirname(__file__))
-
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-    long_description = "\n" + fh.read()
 
 VERSION = '1.0.0'
-DESCRIPTION = 'Handling link or url'
-LONG_DESCRIPTION = 'A package that allows to Handling link or url'
+DESCRIPTION = 'Handling links'
+LONG_DESCRIPTION = 'A package that allows to Handling links'
 
 # Setting up
 setup(
-    name="gunshot",
+    name="gunlink",
     version=VERSION,
     author="Brijesh Krishna",
     author_email="brijeshkrishnaga@gmail.com",
     description=DESCRIPTION,
-    long_description_content_type="text/markdown",
-    long_description=long_description,
+    long_description_content_type="text/x-rst",
+    long_description=open('README.rst').read(),
     packages=find_packages(),
+    url='https://github.com/Brijeshkrishna/gunlink',
+    license='MIT',
     install_requires=['numpy', 'ipwhois', 'pyshorteners', 'pydantic'],
-    keywords=['python', 'link', 'pylink'],
+    keywords=['gunlink','python', 'link', 'python3'],
     classifiers=[
-        "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
