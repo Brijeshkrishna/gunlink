@@ -1,5 +1,5 @@
 # Gunlink
-(https://raw.githubusercontent.com/Brijeshkrishna/gunlink/1d4aa24ec2568a3b18c3bc6c9dd5b26ab76aacf8/gunlink.png)
+
    ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Python-Version](https://img.shields.io/badge/python-3.9-blue) ![issues](https://img.shields.io/github/issues/Brijeshkrishna/gunshot) ![PyPI - Status](https://img.shields.io/pypi/status/pw-gen) ![License](https://img.shields.io/github/license/lunAr-creator/pw-gen) 
 
 #### A package that allows to handle URL
